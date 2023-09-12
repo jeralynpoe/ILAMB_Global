@@ -1,0 +1,1965 @@
+[INFO][0][<module>] Darwin CMPG7MP2G29J2.local 22.4.0 Darwin Kernel Version 22.4.0: Mon Mar  6 20:59:28 PST 2023; root:xnu-8796.101.5~3/RELEASE_ARM64_T6000 x86_64 i386
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB (2.7)
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy (1.25.0)
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/matplotlib (3.7.1)
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/netCDF4 (1.6.4)
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units (3.2.0)
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/sympy (1.12)
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/mpi4py (3.1.4)
+[INFO][0][<module>] 2023-08-02 15:02:44.382490
+[DEBUG][0][extractTimeSeries][JULES] Could not find [ra] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXCOM][JULES]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [rh] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXCOM][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][JULES] Could not find [ra] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXNET2015][JULES]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [rh] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXNET2015][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][JULES] Could not find [ra] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/GBAF][JULES]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [rh] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/GBAF][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][WorkConfront][GrossPrimaryProduction/VODCA2GPP][IBIS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 378, in stageData
+    obs, mod = il.MakeComparable(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2558, in MakeComparable
+    if not np.allclose(ref.time_bnds, com.time_bnds, atol=0.75 * ref.dt):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/core/numeric.py", line 2241, in allclose
+    res = all(isclose(a, b, rtol=rtol, atol=atol, equal_nan=equal_nan))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/core/numeric.py", line 2351, in isclose
+    return within_tol(x, y, atol, rtol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/core/numeric.py", line 2332, in within_tol
+    return less_equal(abs(x-y), atol + rtol * abs(y))
+                          ~^~
+ValueError: operands could not be broadcast together with shapes (384,2) (383,2) 
+
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][TRENDY_Mean] Success
+[DEBUG][0][WorkConfront][GrossPrimaryProduction/VODCA2GPP][VISIT]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 378, in stageData
+    obs, mod = il.MakeComparable(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2558, in MakeComparable
+    if not np.allclose(ref.time_bnds, com.time_bnds, atol=0.75 * ref.dt):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/core/numeric.py", line 2241, in allclose
+    res = all(isclose(a, b, rtol=rtol, atol=atol, equal_nan=equal_nan))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/core/numeric.py", line 2351, in isclose
+    return within_tol(x, y, atol, rtol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/core/numeric.py", line 2332, in within_tol
+    return less_equal(abs(x-y), atol + rtol * abs(y))
+                          ~^~
+ValueError: operands could not be broadcast together with shapes (384,2) (383,2) 
+
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][YIBs] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][CLM5] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][DLEM] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][JULES] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][LPJ-GUESS] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][LPJwsl] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][VISIT] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/WECANN][YIBs] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][CLM5] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][DLEM] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][JULES] Success
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [rh] in the model results
+[DEBUG][0][WorkConfront][NetEcosystemExchange/FLUXCOM][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][CombineVariables][MonotonicityError]
+   0: t = [47465.500, 59844.500]  * /Users/jmp838/Desktop/TRENDY/ILAMB_run/MODELS/LPJwsl/npp/LPJ_S3_npp.nc
+   1: t = [47465.500, 59844.500] ** /Users/jmp838/Desktop/TRENDY/ILAMB_run/MODELS/LPJwsl/npp/LPJ_S3_npp_edited.nc
+[DEBUG][0][WorkConfront][NetEcosystemExchange/FLUXCOM][LPJwsl]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 435, in extractTimeSeries
+    v = il.CombineVariables(V)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2654, in CombineVariables
+    raise MonotonicityError()
+ILAMB.ilamblib.MonotonicityError: MonotonicityError
+
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][TRENDY_Mean] Success
+[DEBUG][0][extractTimeSeries][VISIT] Could not find [npp] in the model results
+[DEBUG][0][WorkConfront][NetEcosystemExchange/FLUXCOM][VISIT]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][YIBs] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][CLM5] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][DLEM] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][IBIS] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][ISAM] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][JSBACH] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][JULES] Success
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [rh] in the model results
+[DEBUG][0][WorkConfront][NetEcosystemExchange/FLUXNET2015][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][CombineVariables][MonotonicityError]
+   0: t = [51480.500, 60209.500]  * 
+   1: t = [51480.500, 60209.500] ** 
+[DEBUG][0][WorkConfront][NetEcosystemExchange/FLUXNET2015][LPJwsl]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 435, in extractTimeSeries
+    v = il.CombineVariables(V)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2654, in CombineVariables
+    raise MonotonicityError()
+ILAMB.ilamblib.MonotonicityError: MonotonicityError
+
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][OCN] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][SDGVM] Success
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][TRENDY_Mean] Success
+[DEBUG][0][extractTimeSeries][VISIT] Could not find [npp] in the model results
+[DEBUG][0][WorkConfront][NetEcosystemExchange/FLUXNET2015][VISIT]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][YIBs] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][CLM5] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][DLEM] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][JULES] Success
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [rh] in the model results
+[DEBUG][0][WorkConfront][NetEcosystemExchange/GBAF][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][CombineVariables][MonotonicityError]
+   0: t = [48195.500, 58019.500]  * /Users/jmp838/Desktop/TRENDY/ILAMB_run/MODELS/LPJwsl/npp/LPJ_S3_npp.nc
+   1: t = [48195.500, 58019.500] ** /Users/jmp838/Desktop/TRENDY/ILAMB_run/MODELS/LPJwsl/npp/LPJ_S3_npp_edited.nc
+[DEBUG][0][WorkConfront][NetEcosystemExchange/GBAF][LPJwsl]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 435, in extractTimeSeries
+    v = il.CombineVariables(V)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2654, in CombineVariables
+    raise MonotonicityError()
+ILAMB.ilamblib.MonotonicityError: MonotonicityError
+
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][TRENDY_Mean] Success
+[DEBUG][0][extractTimeSeries][VISIT] Could not find [npp] in the model results
+[DEBUG][0][WorkConfront][NetEcosystemExchange/GBAF][VISIT]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/GBAF][YIBs] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][CLM5] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][DLEM] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][JULES] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][LPJ-GUESS] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][LPJwsl] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][SDGVM] Success
+[DEBUG][0][extractTimeSeries][TRENDY_Mean] Could not find [cSoil] in the model results
+[DEBUG][0][WorkConfront][SoilCarbon/HWSD][TRENDY_Mean]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][VISIT] Success
+[INFO][0][AnalysisMeanStateSpace][cSoil] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][YIBs] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CLM5] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][DLEM] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][JULES] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][LPJ-GUESS] Success
+[DEBUG][0][extractTimeSeries][LPJwsl] Could not find [evapotrans,et] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/GLEAMv3.3a][LPJwsl]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][VISIT] Success
+[DEBUG][0][extractTimeSeries][YIBs] Could not find [evapotrans,et] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/GLEAMv3.3a][YIBs]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][CLM5] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][DLEM] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][JULES] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][LPJ-GUESS] Success
+[DEBUG][0][extractTimeSeries][LPJwsl] Could not find [evapotrans,et] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/MOD16A2][LPJwsl]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][VISIT] Success
+[DEBUG][0][extractTimeSeries][YIBs] Could not find [evapotrans,et] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/MOD16A2][YIBs]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][CLM5] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][DLEM] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][JULES] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][LPJ-GUESS] Success
+[DEBUG][0][extractTimeSeries][LPJwsl] Could not find [evapotrans,et] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/MODIS][LPJwsl]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSpace][evapotrans] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][evapotrans] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][VISIT] Success
+[DEBUG][0][extractTimeSeries][YIBs] Could not find [evapotrans,et] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/MODIS][YIBs]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][CLM5] Success
+[DEBUG][0][extractTimeSeries][DLEM] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/CMAPv1904][DLEM]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][JULES] Success
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/CMAPv1904][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][LPJwsl] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/CMAPv1904][LPJwsl]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][VISIT] Success
+[DEBUG][0][extractTimeSeries][YIBs] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/CMAPv1904][YIBs]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][CLM5] Success
+[DEBUG][0][extractTimeSeries][DLEM] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/FLUXNET2015][DLEM]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][IBIS] Success
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][ISAM] Success
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][JSBACH] Success
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][JULES] Success
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/FLUXNET2015][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][LPJwsl] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/FLUXNET2015][LPJwsl]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][OCN] Success
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][SDGVM] Success
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/FLUXNET2015][VISIT] Success
+[DEBUG][0][extractTimeSeries][YIBs] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/FLUXNET2015][YIBs]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][CLM5] Success
+[DEBUG][0][extractTimeSeries][DLEM] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/GPCCv2018][DLEM]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][JULES] Success
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/GPCCv2018][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][LPJwsl] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/GPCCv2018][LPJwsl]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][VISIT] Success
+[DEBUG][0][extractTimeSeries][YIBs] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/GPCCv2018][YIBs]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][CLM5] Success
+[DEBUG][0][extractTimeSeries][DLEM] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/GPCPv2.3][DLEM]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][JULES] Success
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/GPCPv2.3][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][LPJwsl] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/GPCPv2.3][LPJwsl]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][VISIT] Success
+[DEBUG][0][extractTimeSeries][YIBs] Could not find [pr] in the model results
+[DEBUG][0][WorkConfront][Precipitation/GPCPv2.3][YIBs]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][CLM5] Success
+[DEBUG][0][extractTimeSeries][DLEM] Could not find [tas] in the model results
+[DEBUG][0][WorkConfront][NearSurfaceAirTemperature/CRU4.02][DLEM]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][JULES] Success
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [tas] in the model results
+[DEBUG][0][WorkConfront][NearSurfaceAirTemperature/CRU4.02][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][LPJwsl] Could not find [tas] in the model results
+[DEBUG][0][WorkConfront][NearSurfaceAirTemperature/CRU4.02][LPJwsl]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][VISIT] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/CRU4.02][YIBs] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][CLM5] Success
+[DEBUG][0][extractTimeSeries][DLEM] Could not find [tas] in the model results
+[DEBUG][0][WorkConfront][NearSurfaceAirTemperature/FLUXNET2015][DLEM]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][IBIS] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][ISAM] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][JSBACH] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][JULES] Success
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [tas] in the model results
+[DEBUG][0][WorkConfront][NearSurfaceAirTemperature/FLUXNET2015][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][LPJwsl] Could not find [tas] in the model results
+[DEBUG][0][WorkConfront][NearSurfaceAirTemperature/FLUXNET2015][LPJwsl]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][OCN] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][SDGVM] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][VISIT] Success
+[INFO][0][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][0][confront][NearSurfaceAirTemperature/FLUXNET2015][YIBs] Success
+[INFO][0][modelPlots][Biomass/ESACCI][CABLE-POP] Success
+[INFO][0][modelPlots][Biomass/ESACCI][CLASSIC] Success
+[INFO][0][modelPlots][Biomass/ESACCI][CLM5] Success
+[INFO][0][modelPlots][Biomass/ESACCI][DLEM] Success
+[INFO][0][modelPlots][Biomass/ESACCI][IBIS] Success
+[INFO][0][modelPlots][Biomass/ESACCI][ISAM] Success
+[INFO][0][modelPlots][Biomass/ESACCI][ISBA-CTRIP] Success
+[INFO][0][modelPlots][Biomass/ESACCI][JSBACH] Success
+[INFO][0][modelPlots][Biomass/ESACCI][JULES] Success
+[INFO][0][modelPlots][Biomass/ESACCI][LPJ-GUESS] Success
+[INFO][0][modelPlots][Biomass/ESACCI][LPJwsl] Success
+[INFO][0][modelPlots][Biomass/ESACCI][LPX-Bern] Success
+[INFO][0][modelPlots][Biomass/ESACCI][OCN] Success
+[INFO][0][modelPlots][Biomass/ESACCI][ORCHIDEE] Success
+[INFO][0][modelPlots][Biomass/ESACCI][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][Biomass/ESACCI][ORCHIDEEv3] Success
+[INFO][0][modelPlots][Biomass/ESACCI][SDGVM] Success
+[INFO][0][modelPlots][Biomass/ESACCI][TRENDY_Mean] Success
+[INFO][0][modelPlots][Biomass/ESACCI][VISIT] Success
+[INFO][0][modelPlots][Biomass/ESACCI][YIBs] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][CABLE-POP] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][CLASSIC] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][CLM5] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][DLEM] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][IBIS] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][ISAM] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][ISBA-CTRIP] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][JSBACH] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][JULES] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][LPJ-GUESS] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][LPJwsl] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][LPX-Bern] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][OCN] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][ORCHIDEE] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][ORCHIDEEv3] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][SDGVM] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][TRENDY_Mean] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][VISIT] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][YIBs] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][CABLE-POP] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][CLASSIC] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][CLM5] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][DLEM] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][IBIS] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][ISAM] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][ISBA-CTRIP] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][JSBACH] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][LPJwsl] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][LPX-Bern] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][OCN] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][ORCHIDEE] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][ORCHIDEEv3] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][SDGVM] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][TRENDY_Mean] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][VISIT] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][YIBs] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][CABLE-POP] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][CLASSIC] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][CLM5] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][DLEM] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][IBIS] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][ISAM] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][ISBA-CTRIP] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][JSBACH] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][LPJwsl] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][LPX-Bern] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][OCN] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][ORCHIDEE] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][ORCHIDEEv3] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][SDGVM] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][TRENDY_Mean] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][VISIT] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][YIBs] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][CABLE-POP] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][CLASSIC] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][CLM5] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][DLEM] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][IBIS] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][ISAM] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][ISBA-CTRIP] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][JSBACH] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][LPJwsl] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][LPX-Bern] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][OCN] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][ORCHIDEE] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][ORCHIDEEv3] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][SDGVM] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][TRENDY_Mean] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][VISIT] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][YIBs] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][CABLE-POP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][CLASSIC] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][CLM5] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][DLEM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][IBIS] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][ISAM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][ISBA-CTRIP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][JSBACH] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][JULES] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][LPJ-GUESS] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][LPJwsl] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][LPX-Bern] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][OCN] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][ORCHIDEE] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][ORCHIDEEv3] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][SDGVM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][TRENDY_Mean] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][VISIT] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXCOM][YIBs] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][CABLE-POP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][CLASSIC] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][CLM5] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][DLEM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][IBIS] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][ISAM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][ISBA-CTRIP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][JSBACH] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][JULES] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][LPJ-GUESS] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][LPJwsl] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][LPX-Bern] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][OCN] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][ORCHIDEE] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][ORCHIDEEv3] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][SDGVM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][TRENDY_Mean] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][VISIT] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/FLUXNET2015][YIBs] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][CABLE-POP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][CLASSIC] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][CLM5] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][DLEM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][IBIS] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][ISAM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][ISBA-CTRIP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][JSBACH] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][JULES] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][LPJ-GUESS] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][LPJwsl] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][LPX-Bern] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][OCN] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][ORCHIDEE] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][ORCHIDEEv3] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][SDGVM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][TRENDY_Mean] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][VISIT] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/GBAF][YIBs] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][CABLE-POP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][CLASSIC] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][CLM5] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][DLEM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][ISAM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][ISBA-CTRIP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][JSBACH] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][JULES] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][LPJ-GUESS] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][LPJwsl] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][LPX-Bern] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][OCN] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][ORCHIDEE] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][ORCHIDEEv3] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][SDGVM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][TRENDY_Mean] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/VODCA2GPP][YIBs] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][CABLE-POP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][CLASSIC] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][CLM5] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][DLEM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][IBIS] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][ISAM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][ISBA-CTRIP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][JSBACH] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][JULES] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][LPJ-GUESS] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][LPJwsl] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][LPX-Bern] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][OCN] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][ORCHIDEE] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][ORCHIDEEv3] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][SDGVM] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][TRENDY_Mean] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][VISIT] Success
+[INFO][0][modelPlots][GrossPrimaryProduction/WECANN][YIBs] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][CABLE-POP] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][CLASSIC] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][CLM5] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][DLEM] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][IBIS] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][ISAM] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][ISBA-CTRIP] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][JSBACH] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][JULES] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][LPX-Bern] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][OCN] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][ORCHIDEE] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][ORCHIDEEv3] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][SDGVM] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][TRENDY_Mean] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][YIBs] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][CABLE-POP] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][CLASSIC] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][CLM5] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][DLEM] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][IBIS] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][ISAM] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][ISBA-CTRIP] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][JSBACH] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][JULES] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][LPX-Bern] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][OCN] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][ORCHIDEE] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][ORCHIDEEv3] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][SDGVM] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][TRENDY_Mean] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][YIBs] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][CABLE-POP] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][CLASSIC] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][CLM5] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][DLEM] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][IBIS] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][ISAM] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][ISBA-CTRIP] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][JSBACH] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][JULES] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][LPX-Bern] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][OCN] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][ORCHIDEE] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][ORCHIDEEv3] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][SDGVM] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][TRENDY_Mean] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][YIBs] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][CABLE-POP] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][CLASSIC] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][CLM5] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][DLEM] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][IBIS] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][ISAM] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][ISBA-CTRIP] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][JSBACH] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][JULES] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][LPJ-GUESS] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][LPJwsl] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][LPX-Bern] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][OCN] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][ORCHIDEE] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][ORCHIDEEv3] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][SDGVM] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][VISIT] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][YIBs] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CABLE-POP] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CLASSIC] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CLM5] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][DLEM] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][IBIS] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ISAM] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ISBA-CTRIP] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][JSBACH] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][JULES] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][LPJ-GUESS] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][LPX-Bern] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][OCN] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ORCHIDEE] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ORCHIDEEv3] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][SDGVM] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][TRENDY_Mean] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][VISIT] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CABLE-POP] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CLASSIC] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CLM5] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][DLEM] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][IBIS] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ISAM] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ISBA-CTRIP] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][JSBACH] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][JULES] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][LPJ-GUESS] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][LPX-Bern] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][OCN] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ORCHIDEE] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ORCHIDEEv3] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][SDGVM] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][TRENDY_Mean] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][VISIT] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][CABLE-POP] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][CLASSIC] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][CLM5] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][DLEM] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][IBIS] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ISAM] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ISBA-CTRIP] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][JSBACH] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][JULES] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][LPJ-GUESS] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][LPX-Bern] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][OCN] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ORCHIDEE] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ORCHIDEEv3] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][SDGVM] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][TRENDY_Mean] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][VISIT] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][CABLE-POP] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][CLASSIC] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][CLM5] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][IBIS] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][ISAM] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][ISBA-CTRIP] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][JSBACH] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][JULES] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][LPX-Bern] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][OCN] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][ORCHIDEE] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][ORCHIDEEv3] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][SDGVM] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][TRENDY_Mean] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][VISIT] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][CABLE-POP] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][CLASSIC] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][CLM5] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][IBIS] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][ISAM] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][ISBA-CTRIP] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][JSBACH] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][JULES] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][LPX-Bern] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][OCN] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][ORCHIDEE] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][ORCHIDEEv3] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][SDGVM] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][TRENDY_Mean] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][VISIT] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][CABLE-POP] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][CLASSIC] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][CLM5] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][IBIS] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][ISAM] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][ISBA-CTRIP] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][JSBACH] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][JULES] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][LPX-Bern] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][OCN] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][ORCHIDEE] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][ORCHIDEEv3] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][SDGVM] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][TRENDY_Mean] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][VISIT] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][CABLE-POP] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][CLASSIC] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][CLM5] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][IBIS] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][ISAM] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][ISBA-CTRIP] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][JSBACH] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][JULES] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][LPX-Bern] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][OCN] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][ORCHIDEE] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][ORCHIDEEv3] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][SDGVM] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][TRENDY_Mean] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][VISIT] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][CABLE-POP] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][CLASSIC] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][CLM5] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][IBIS] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][ISAM] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][ISBA-CTRIP] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][JSBACH] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][JULES] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][LPX-Bern] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][OCN] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][ORCHIDEE] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][ORCHIDEEv3] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][SDGVM] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][TRENDY_Mean] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][VISIT] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/CRU4.02][YIBs] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][CABLE-POP] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][CLASSIC] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][CLM5] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][IBIS] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][ISAM] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][ISBA-CTRIP] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][JSBACH] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][JULES] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][LPX-Bern] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][OCN] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][ORCHIDEE] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][ORCHIDEE-CNP] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][ORCHIDEEv3] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][SDGVM] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][TRENDY_Mean] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][VISIT] Success
+[INFO][0][modelPlots][NearSurfaceAirTemperature/FLUXNET2015][YIBs] Success
+[INFO][0][<module>][total time] 9969.5 s

@@ -1,0 +1,634 @@
+[INFO][0][<module>] Darwin CMPG7MP2G29J2.local 22.4.0 Darwin Kernel Version 22.4.0: Mon Mar  6 20:59:28 PST 2023; root:xnu-8796.101.5~3/RELEASE_ARM64_T6000 x86_64 i386
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB (2.7)
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy (1.25.0)
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/matplotlib (3.7.1)
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/netCDF4 (1.6.4)
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units (3.2.0)
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/sympy (1.12)
+[INFO][0][<module>] /opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/mpi4py (3.1.4)
+[INFO][0][<module>] 2023-08-02 14:02:50.309569
+[INFO][0][MakeComparable][Biomass/ESACCI][CABLE-POP] Spatial data was clipped from the comparison:  before: [ 13 176 360] after: [ 13 141 360]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][CABLE-POP] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][CLASSIC] Spatial data was clipped from the comparison:  before: [  1  64 128] after: [  1  51 128]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][CLASSIC] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][CLM5] Spatial data was clipped from the comparison:  before: [  1 192 288] after: [  1 149 288]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][CLM5] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][DLEM] Spatial data was clipped from the comparison:  before: [  1 360 720] after: [  1 281 720]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][DLEM] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][IBIS] Spatial data was clipped from the comparison:  before: [  1 180 360] after: [  1 141 360]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][IBIS] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][ISAM] Spatial data was clipped from the comparison:  before: [  1 360 720] after: [  1 281 720]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][ISAM] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][ISBA-CTRIP] Spatial data was clipped from the comparison:  before: [ 12 176 360] after: [ 12 141 360]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][ISBA-CTRIP] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][JSBACH] Spatial data was clipped from the comparison:  before: [  1  96 192] after: [  1  76 192]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][JSBACH] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][JULES] Spatial data was clipped from the comparison:  before: [ 12 144 192] after: [ 12 113 192]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][JULES] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][LPJ-GUESS] Spatial data was clipped from the comparison:  before: [  1 360 720] after: [  1 281 720]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][LPJ-GUESS] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][LPJwsl] Spatial data was clipped from the comparison:  before: [  1 360 720] after: [  1 281 720]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][LPJwsl] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][LPX-Bern] Spatial data was clipped from the comparison:  before: [  1 360 720] after: [  1 281 720]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][LPX-Bern] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][OCN] Spatial data was clipped from the comparison:  before: [  1 180 360] after: [  1 141 360]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][OCN] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][ORCHIDEE] Spatial data was clipped from the comparison:  before: [  1 360 720] after: [  1 281 720]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][ORCHIDEE] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][ORCHIDEE-CNP] Spatial data was clipped from the comparison:  before: [  1  90 180] after: [  1  71 180]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][ORCHIDEE-CNP] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][ORCHIDEEv3] Spatial data was clipped from the comparison:  before: [  1 360 720] after: [  1 281 720]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][ORCHIDEEv3] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][SDGVM] Spatial data was clipped from the comparison:  before: [  1 180 360] after: [  1 141 360]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][SDGVM] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][TRENDY_Mean] Spatial data was clipped from the comparison:  before: [ 12 180 360] after: [ 12 141 360]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][TRENDY_Mean] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][VISIT] Spatial data was clipped from the comparison:  before: [ 12 360 720] after: [ 12 281 720]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][VISIT] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][YIBs] Spatial data was clipped from the comparison:  before: [  1 181 360] after: [  1 141 360]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][YIBs] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][CLM5] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][DLEM] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][JULES] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][LPJ-GUESS] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][LPJwsl] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][VISIT] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][YIBs] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][CLM5] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][DLEM] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][JSBACH] Success
+[DEBUG][0][extractTimeSeries][JULES] Could not find [ra] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXCOM][JULES]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [ra] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXCOM][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][LPJwsl] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][VISIT] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][YIBs] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][CLM5] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][DLEM] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][IBIS] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][ISAM] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][JSBACH] Success
+[DEBUG][0][extractTimeSeries][JULES] Could not find [ra] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXNET2015][JULES]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [ra] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXNET2015][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][LPJwsl] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][OCN] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][SDGVM] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][VISIT] Success
+[INFO][0][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][YIBs] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][CLM5] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][DLEM] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][JSBACH] Success
+[DEBUG][0][extractTimeSeries][JULES] Could not find [ra] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/GBAF][JULES]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][LPJ-GUESS] Could not find [ra] in the model results
+[DEBUG][0][WorkConfront][EcosystemRespiration/GBAF][LPJ-GUESS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][LPJwsl] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][VISIT] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/GBAF][YIBs] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][CLM5] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][DLEM] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][JULES] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][LPJ-GUESS] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][LPJwsl] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][VISIT] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXCOM][YIBs] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][CLM5] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][DLEM] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][IBIS] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][ISAM] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][JSBACH] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][JULES] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][LPJ-GUESS] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][LPJwsl] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][OCN] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][SDGVM] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][VISIT] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/FLUXNET2015][YIBs] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][CLM5] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][DLEM] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][IBIS] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][JULES] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][LPJ-GUESS] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][LPJwsl] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][LPX-Bern] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][OCN] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][ORCHIDEE] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][ORCHIDEE-CNP] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][ORCHIDEEv3] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][SDGVM] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][TRENDY_Mean] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][VISIT] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/GBAF][YIBs] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][CABLE-POP] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][CLASSIC] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][CLM5] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][DLEM] Success
+[DEBUG][0][WorkConfront][GrossPrimaryProduction/VODCA2GPP][IBIS]
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 378, in stageData
+    obs, mod = il.MakeComparable(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2558, in MakeComparable
+    if not np.allclose(ref.time_bnds, com.time_bnds, atol=0.75 * ref.dt):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/core/numeric.py", line 2241, in allclose
+    res = all(isclose(a, b, rtol=rtol, atol=atol, equal_nan=equal_nan))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/core/numeric.py", line 2351, in isclose
+    return within_tol(x, y, atol, rtol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/core/numeric.py", line 2332, in within_tol
+    return less_equal(abs(x-y), atol + rtol * abs(y))
+                          ~^~
+ValueError: operands could not be broadcast together with shapes (384,2) (383,2) 
+
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][ISAM] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][ISBA-CTRIP] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][JSBACH] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][JULES] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][LPJ-GUESS] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][LPJwsl] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProduction/VODCA2GPP][LPX-Bern] Success
